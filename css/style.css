@@ -1,0 +1,135 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+/* Headings */
+
+.big-heading {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: #FDFDFD;
+}
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+/* Containers */
+
+.container-fluid {
+    padding: 7% 15%;
+}
+/* Setions */
+
+.colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+}
+.white-section {
+    background-color: #fff;
+}
+/* Navigation Bar */
+
+.title {
+    padding: 3% 15%;
+    text-align: left;
+}
+.navbar {
+    padding: 0 0 4.5rem;
+}
+.brand {
+    font-size: 2.5rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 900;
+}
+.nav-item {
+    padding: 0 1.5rem;
+}
+.nav-link {
+    font-size: 1.2rem;
+}
+/* Download Button */
+
+.btn-download {
+    margin: 5% 1.2% 5%;
+}
+/* Header Image */
+
+#header-img {
+    width: 60%;
+    margin: 2% 10%;
+    transform: rotate(25deg);
+    position: absolute;
+    top: 5%;
+}
+/* Features Section */
+
+#features {
+    position: relative;
+}
+.feature-box {
+    padding-bottom: 5rem;
+}
+.feature-icons {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.feature-icons:hover {
+    color: #ff4c68;
+}
+#features p {
+    width: 80%;
+    margin: auto;
+    color: #8f8f8f;
+}
+/* Testimonials Section Style */
+
+#testimonials {
+    background-color: #ef8172;
+    color: #fff;
+}
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+/* Press Section Style*/
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 5%;
+}
+.press-logo {
+    width: 15%;
+    margin: 20px 20px;
+}
+/* Pricing Section Style */
+
+#pricing {
+    padding: 100px;
+}
+.pricing-column {
+    padding: 5% 2%;
+}
+.social-icons {
+    margin: 0 0.7rem 1rem;
+}
+.footer-paragraph {
+    color: gray;
+    word-spacing: 2px;
+}
+/* Media Queries */
+
+@media (max-width: 1028px) {
+    .title {
+        text-align: center;
+    }
+    #header-img {
+        position: static;
+        transform: rotate(0deg);
+        width: 55%;
+    }
+}
